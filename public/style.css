@@ -84,6 +84,7 @@ body {
     padding: 0.5rem;
     margin-right: 10px;
     width: 70%;
+    word-wrap: break-word;
   }
   
 .fas{
