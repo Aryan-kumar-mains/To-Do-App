@@ -1,4 +1,3 @@
-# Checked Android App
 ### A Simple To-Do-App Built using React JS
 
 
