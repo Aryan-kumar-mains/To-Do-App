@@ -1,7 +1,6 @@
 # A Simple To-Do-App Built using React JS
 
 
-
 Screenshots
 ---
 <p align="center">
@@ -11,6 +10,23 @@ Screenshots
   <img src="https://user-images.githubusercontent.com/64891042/194040056-2a57c750-4efa-4e29-91d5-28e86800b3ea.png" width="282" alt="List/Home Screen">
 </p>
 
+
+## Instructions
+
+First clone this repository.
+```bash
+$ git clone https://github.com/Aryan-kumar-mains/To-Do-App.git
+```
+
+Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
+```bash
+$ npm install # or yarn
+```
+
+Run it
+```bash
+$ npm start # or yarn start
+```
 
 Current Features
 ---
