@@ -73,6 +73,7 @@ body {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   border: 2px solid hsl(198, 1%, 29%);
+  margin-left: 10px;
 }
 #action-btn:hover {
   cursor: pointer;
