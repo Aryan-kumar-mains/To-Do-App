@@ -1,5 +1,6 @@
 body {
   background-color: #ffeaa7;
+  margin: 0 !important;
   padding: 1rem;
   box-sizing: border-box;
   display: flex;
@@ -9,7 +10,7 @@ body {
   font-family: "Architects Daughter", cursive;
   text-align: center;
   font-size: 130%;
-  height: 98vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
