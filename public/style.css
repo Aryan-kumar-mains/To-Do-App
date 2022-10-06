@@ -25,6 +25,7 @@ body {
     box-shadow: 4px 3px 7px 2px #00000040;
     padding: 1rem;
     box-sizing: border-box;
+    overflow-y: scroll;
   }
   .heading {
     display: flex;
@@ -103,4 +104,8 @@ body {
 .fa-pen {
   top: 12px;
   right: 48px;
+}
+
+.list-view{
+  height: 600px;
 }

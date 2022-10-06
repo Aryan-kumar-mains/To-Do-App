@@ -98,7 +98,7 @@ function App() {
         }
         </button>
       </div>
-      <div>
+      <div className="list-view">
         <ul>
           {items.map((todoItem, index) => (
             <TodoItem
