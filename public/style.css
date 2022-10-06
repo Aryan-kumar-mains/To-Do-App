@@ -74,21 +74,40 @@ body {
     border: 2px solid hsl(198, 1%, 29%);
   }
 
-  .todo-container{
-    position: relative;
-    width: 200px;
-  }
+button {
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: #ffeaa7;
+  margin-left: 10px;
+}
 
-  li {
-    text-align: left;
-    position: relative;
-    padding: 0.5rem;
-    margin-right: 10px;
-    width: 60%;
-    word-break: break-word;
-  }
-  
-.fas{
+button span {
+  background: #f1f5f8;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid hsl(198, 1%, 29%);
+}
+
+.todo-container {
+  position: relative;
+  width: 200px;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+  margin-right: 10px;
+  width: 60%;
+  word-break: break-word;
+}
+
+.fas {
   position: absolute;
   top: 12px;
   right: 2px;
@@ -105,7 +124,6 @@ body {
   top: 12px;
   right: 48px;
 }
-
 .list-view{
   height: 600px;
 }
