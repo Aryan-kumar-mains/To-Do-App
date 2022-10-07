@@ -28,7 +28,8 @@ function App() {
     setInputText(newValue);
   }
 
-  function addItem() {
+  function addItem(e) {
+    e.preventDefault()
     if(!inputText) {
       alert("Please fill the Data first");
     }
@@ -90,14 +91,14 @@ function App() {
       <div className="heading">
         <h1>To-Do List</h1>
       </div>
-      <div className="form">
+      <form className="form" onSubmit={addItem}>
         <input onChange={handleChange} type="text" value={inputText}  autoFocus/>
-        <button onClick={addItem}>
+        <button type="submit">
         {
           toggleBtn ? <span>"Edit"</span> : <span>"Add"</span>
         }
         </button>
-      </div>
+      </form>
       <div>
         <ul>
           {items.map((todoItem, index) => (
