@@ -93,7 +93,9 @@ function App() {
       </div>
       <form className="form" onSubmit={addItem}>
         <input onChange={handleChange} type="text" value={inputText}  autoFocus/>
-        <button type="submit">
+
+        <button type="submit" id={"action-btn"} onClick={addItem}>
+
         {
           toggleBtn ? <span>"Edit"</span> : <span>"Add"</span>
         }

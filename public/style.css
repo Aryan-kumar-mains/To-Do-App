@@ -40,6 +40,11 @@ body {
   background-color: #fdcb6e;
   font-size: 1.5rem;
 }
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .form input {
   box-sizing: border-box;
@@ -56,23 +61,26 @@ body {
   margin-bottom: 20px;
 }
 
-button {
+#action-btn {
   padding: 0;
   border: none;
   font-family: "Architects Daughter", cursive;
   text-decoration: none;
   padding-bottom: 3px;
   border-radius: 5px;
-  background-color: #ffeaa7;
-  margin-left: 10px;
-}
-
-button span {
   background: #f1f5f8;
+  margin-bottom: 20px;
   display: block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   border: 2px solid hsl(198, 1%, 29%);
+  margin-left: 10px;
+}
+#action-btn:hover {
+  cursor: pointer;
+  background-color: rgb(206, 207, 198);
+  transition: all;
+  animation-duration: 175ms;
 }
 
 .todo-container {
