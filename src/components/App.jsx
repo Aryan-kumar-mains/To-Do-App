@@ -101,7 +101,7 @@ function App() {
         }
         </button>
       </form>
-      <div>
+      <div className="list-view">
         <ul>
           {items.map((todoItem, index) => (
             <TodoItem
